@@ -1,0 +1,51 @@
+﻿@model WebShop.Models.IndexViewModel
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+    <h4>Изменение учетной записи пользователя</h4>
+    <div class="saved">@ViewBag.SavedMessage</div>
+    <div class="cart_history">@Html.ActionLink("История покупок", "History", "Manage") </div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Логин:</dt>
+        <dd>
+            @User.Identity.Name
+        </dd>
+        <dt>Пароль:</dt>
+        <dd>
+            [ @Html.ActionLink("Изменить пароль", "ChangePassword") ]
+        </dd>
+        <table class="user_data profile_page">
+            @using (Html.BeginForm("Index", "Manage", FormMethod.Post))
+            {
+                @Html.HiddenFor(m => m.Id)
+                <tr>
+                    <td>@Html.LabelFor(m => m.Name, "Имя")</td>
+                    <td>@Html.EditorFor(m => m.Name)</td>
+                    <td class="error">@Html.ValidationMessage("Name")</td>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(m => m.Surname, "Фамилия")</td>
+                    <td>@Html.EditorFor(m => m.Surname)</td>
+                    <td class="error">@Html.ValidationMessage("Surname")</td>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(m => m.Country, "Страна")</td>
+                    <td>@Html.EditorFor(m => m.Country)</td>
+                    <td class="error">@Html.ValidationMessage("Country")</td>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(m => m.City, "Город")</td>
+                    <td>@Html.EditorFor(m => m.City)</td>
+                    <td class="error">@Html.ValidationMessage("City")</td>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(m => m.Phone, "Телефон")</td>
+                    <td>@Html.EditorFor(m => m.Phone)</td>
+                    <td class="error">@Html.ValidationMessage("Phone")</td>
+                </tr>
+                <tr><td colspan="2"><input class="button" type="submit" value="Сохранить" /></td></tr>
+            }
+        </table>
+    </dl>
+</div>

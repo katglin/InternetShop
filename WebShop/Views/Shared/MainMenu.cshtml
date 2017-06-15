@@ -1,0 +1,60 @@
+﻿@{
+    Layout = null;
+}
+
+<div class="menu">
+    <ul class="menu_items clearfix">
+        
+        <li>@Html.ActionLink("Главная", "Index", "Home", null, 
+           new { @class = ViewBag.MenuItem == "Main" ? "selected" : null})
+             </li>
+        <li>
+            @Html.ActionLink("Компьютеры", "Index", "ProductsList", null, 
+           new { @class = ViewBag.MenuItem == "Products" ? "selected" : null })
+            <ul>
+                @{
+                    using (var domainModel = new WebShop.BLL.PrCategoryDomainModel())
+                    {
+                        var list = domainModel.GetAll();
+                        foreach (var item in list)
+                        {
+                            string name = item.Category;
+                            var id = item.Category_id;
+                            <li>
+                                @*@Html.ActionLink(name, "Index", "Home")*@
+                               @*  Use this to pass category of product to code: *@
+                                @Html.ActionLink(name, "Index", "ProductsList", new {page = 1, sortOrder = "",
+                               categId = id, currentFilter = ViewBag.CurrentFilter,
+                               minPr = ViewBag.min,
+                               maxPr = ViewBag.max,
+                               sales = ViewBag.SalesCheck,
+                               present = ViewBag.PresentCheck,
+                               minHDD = ViewBag.minHDD,
+                               maxHDD = ViewBag.maxHDD,
+                               minFreq = ViewBag.minFreq,
+                               maxFreq = ViewBag.maxFreq,
+                               minMem = ViewBag.minMem,
+                               maxMem = ViewBag.maxMem,
+                               acer = ViewBag.acer,
+                               asus = ViewBag.asus,
+                               lenovo = ViewBag.lenovo,
+                               dell = ViewBag.dell,
+                               hp = ViewBag.hp,
+                               other = ViewBag.other
+                           },
+                               new { @class = ViewBag.CategoryItem == id ? "selected" : null }) 
+                            </li>
+                        }
+                    }
+                }
+            </ul>
+        </li>
+
+        <li>@Html.ActionLink("О магазине", "About", "Home", null,
+            new { @class = ViewBag.MenuItem == "About" ? "selected" : null })</li>
+        <li>@Html.ActionLink("Оплата и доставка", "Delivery", "Home", null,
+            new { @class = ViewBag.MenuItem == "Delivery" ? "selected" : null })</li>
+        <li>@Html.ActionLink("Акции", "Sales", "Home", null,
+            new { @class = ViewBag.MenuItem == "Sales" ? "selected" : null })</li>
+    </ul>
+</div>

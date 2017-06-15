@@ -1,0 +1,65 @@
+﻿@model IEnumerable<WebShop.Models.UserWrapper>
+@{
+    ViewBag.Title = "Зарегистрированные пользователи";
+    Layout = "~/Views/Shared/Wrapper.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@*@model System.Web.Security.MembershipUserCollection*@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div class="form-group">
+            <form action="/User/Update" method="post">
+                <table class="table">
+                    <tr>
+                        <th>
+                            Имя
+                        </th>
+                        <th>
+                            Email
+                        </th>
+                        <th>
+                            Статус
+                        </th>
+
+                    </tr>
+                    @{List<SelectListItem> items = new List<SelectListItem>();
+
+                        items.Add(new SelectListItem { Text = "Superadmin", Value = "1" });
+                        items.Add(new SelectListItem { Text = "Admin", Value = "2" });
+                        items.Add(new SelectListItem { Text = "User", Value = "3" });
+                    }
+
+                    @foreach (var user in Model)
+                    {
+                        <tr>
+
+                            <td>
+                                <div>@Html.DisplayFor(modelUser => user.appUser.Name)</div>
+                            </td>
+                            <td>
+                                <div>@Html.DisplayFor(modelUser => user.appUser.Email)</div>
+                            </td>
+                            <td>
+
+                                <div class="status">
+                                    <div>@Html.DisplayFor(modelUser => items.Find(x => x.Value == user.CurrentRole).Text)</div>
+                                </div>
+                            </td>
+                        </tr>
+
+                    }
+                </table>
+            </form>
+
+        </div>
+   
+</body>
+</html>
+
+

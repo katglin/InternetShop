@@ -1,0 +1,363 @@
+﻿@model PagedList.IPagedList<WebShop.Models.ProductInfoModel>
+@using PagedList.Mvc;
+<script src="~/Scripts/jquery-ui-1.12.0.js"></script>
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+<link href="~/Content/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+
+<div class="sort">
+    <p>
+        Сортировать:
+        @if(@ViewBag.sortValue=="Name")
+        {
+           @: <span class="active-sort asc">
+        }
+        else if (@ViewBag.sortValue == "Name desc")
+        {
+            @: <span class="active-sort desc">
+        }
+        else
+        {
+            @:<span class="not-active-sort">
+        }
+        @Html.ActionLink("По наименованию", "Index", new { page = Model.PageNumber,
+       sortOrder = ViewBag.NameSortParam, categId = ViewBag.Category,
+       currentFilter = ViewBag.CurrentFilter,
+       minPr = ViewBag.min, maxPr = ViewBag.max,
+       sales = ViewBag.SalesCheck, present = ViewBag.PresentCheck,
+       minHDD = ViewBag.minHDD, maxHDD = ViewBag.maxHDD,
+       minFreq = ViewBag.minFreq, maxFreq = ViewBag.maxFreq,
+       minMem = ViewBag.minMem, maxMem = ViewBag.maxMem,
+       acer = ViewBag.acer, asus = ViewBag.asus, lenovo = ViewBag.lenovo,
+       dell = ViewBag.dell, hp = ViewBag.hp,
+       other = ViewBag.other
+   })
+            </span>
+        @if (ViewBag.sortValue == "Cost")
+        {
+            @: <span class="active-sort asc">
+        }
+        else if (@ViewBag.sortValue == "Cost desc")
+        {
+            @: <span class="active-sort desc">
+        }
+        else
+        {
+            @:<span class="not-active-sort">
+        }
+        @Html.ActionLink("По цене", "Index", new { page = Model.PageNumber,
+       sortOrder = ViewBag.CostSortParam, categId = ViewBag.Category,
+       currentFilter = ViewBag.CurrentFilter,
+       minPr = ViewBag.min,
+       maxPr = ViewBag.max,
+       sales = ViewBag.SalesCheck,
+       present = ViewBag.PresentCheck,
+       minHDD = ViewBag.minHDD,
+       maxHDD = ViewBag.maxHDD,
+       minFreq = ViewBag.minFreq,
+       maxFreq = ViewBag.maxFreq,
+       minMem = ViewBag.minMem,
+       maxMem = ViewBag.maxMem,
+       acer = ViewBag.acer,
+       asus = ViewBag.asus,
+       lenovo = ViewBag.lenovo,
+       dell = ViewBag.dell,
+       hp = ViewBag.hp,
+       other = ViewBag.other
+   })
+            </span>
+        @*@if (ViewBag.sortValue == "Popul")
+        {
+            @: <span class="active-sort asc">
+        }
+        else*@ 
+        @if (@ViewBag.sortValue == "Popul desc")
+        {
+            @: <span class="active-sort desc">
+        }
+        else
+        {
+            @:<span class="not-active-sort">
+        }
+        @Html.ActionLink("По популярности", "Index", new { page = Model.PageNumber,
+       sortOrder = ViewBag.PopulSortParam, categId = ViewBag.Category,
+       currentFilter = ViewBag.CurrentFilter,
+       minPr = ViewBag.min,
+       maxPr = ViewBag.max,
+       sales = ViewBag.SalesCheck,
+       present = ViewBag.PresentCheck,
+       minHDD = ViewBag.minHDD,
+       maxHDD = ViewBag.maxHDD,
+       minFreq = ViewBag.minFreq,
+       maxFreq = ViewBag.maxFreq,
+       minMem = ViewBag.minMem,
+       maxMem = ViewBag.maxMem,
+       acer = ViewBag.acer,
+       asus = ViewBag.asus,
+       lenovo = ViewBag.lenovo,
+       dell = ViewBag.dell,
+       hp = ViewBag.hp,
+       other = ViewBag.other
+   })
+            </span>
+    </p>  
+</div> @*Sort finish*@
+
+<div class="search">
+    @using (Html.BeginForm("Index", "ProductsList", new { page = 1,
+        sortOrder = ViewBag.SortValue, categId = ViewBag.Category,
+        minPr = ViewBag.min,
+        maxPr = ViewBag.max,
+        sales = ViewBag.SalesCheck,
+        present = ViewBag.PresentCheck,
+        minHDD = ViewBag.minHDD,
+        maxHDD = ViewBag.maxHDD,
+        minFreq = ViewBag.minFreq,
+        maxFreq = ViewBag.maxFreq,
+        minMem = ViewBag.minMem,
+        maxMem = ViewBag.maxMem,
+        acer = ViewBag.acer,
+        asus = ViewBag.asus,
+        lenovo = ViewBag.lenovo,
+        dell = ViewBag.dell,
+        hp = ViewBag.hp,
+        other = ViewBag.other
+    }))
+    {
+        <p>
+            @Html.TextBox("SearchString", ViewBag.CurrentFilter as string, new { placeholder = "Введите текст для поиска...",
+           maxlength = "50", size = "25", value = @ViewBag.SearchString }) 
+            <input hidden="hidden" type="submit" value="Поиск" class="search_submit" />
+        </p>
+    }
+</div>
+
+<div class="product_list">
+    @if(Model==null || Model.Count==0)
+    {
+        <h1>К сожалению, по вашему запросу товаров не найдено</h1>
+    }
+    @foreach (var item in Model)
+    {
+        <div class="product">
+            @if (!String.IsNullOrEmpty(item.Image_path))
+            {
+                <div class="img_block">
+                    <a href="@Url.Action("Page","ProductsList", new { id = item.Artikul})"><img src=@Url.Content(item.Image_path) alt="PhoneImage"></a>
+                    <div class="buttons"><a href="@Url.Action("Page","ProductsList", new { id = item.Artikul})">ПЕРЕЙТИ</a></div>
+                </div>
+            }
+            else
+            {
+                <div class="img_block">
+                    <a href="@Url.Action("Page","ProductsList", new { id = item.Artikul})"><img alt="Картинка пока недоступна"></a>
+                </div>
+            }
+            <p>@item.Name (@item.Mark)</p>
+            @if (item.Cost == item.Sale_cost)
+                {
+                <p>@item.Sale_cost грн.</p>
+            }
+            else
+            {
+                <p class="sale">
+                    <span class="old_cost">@item.Cost грн.</span>
+                    &nbsp; @item.Sale_cost грн.
+                </p>
+                
+            }
+            
+                @if (item.Sale > 0)
+                {
+                    <div class="sale_note">
+                       <p>-@item.Sale%</p>
+                    </div>
+                }
+                @if (item.Popularity >= Convert.ToInt64(Session["topMinPopul"]))
+                {
+                    <div class="top_note">
+                        <p>TOP</p>
+                    </div>
+                }
+
+                @if (item.Amount_store == 0)
+                {
+                    <div class="not_found_list">
+                        <p>Нет на складе</p>
+                    </div>
+                }
+                else if (User.IsInRole("user") || !User.Identity.IsAuthenticated)
+                {
+                    @Html.HiddenFor(x => item.Artikul, new { @class = "cart_id" })
+                       @*<a  href="#" class="buythis">Купить</a>*@
+                    <input type="submit" class="buythis" value="Купить">
+                }
+        </div>
+    }
+</div>
+
+<div class="filters">
+    @*<label>Расширенный поиск:</label>*@
+    @using (Html.BeginForm("Index", "ProductsList", new
+    {
+        page = 1,
+        sortOrder = ViewBag.SortValue,
+        categId = ViewBag.Category,
+        currentFilter = ViewBag.CurrentFilter
+    }))
+    {
+        <label>Производитель:</label><br/>
+        <input type="checkbox" name="acer" checked="@ViewBag.acer" />
+        <label for="acer">Acer</label><br/>
+
+        <input type="checkbox" name="asus"checked="@ViewBag.asus" />
+        <label for="asus">Asus</label><br/>
+
+        <input type="checkbox" name="lenovo" checked="@ViewBag.lenovo" />
+        <label for="lenovo">Lenovo</label><br/>
+
+        <input type="checkbox" name="dell" checked="@ViewBag.dell" />
+        <label for="dell">Dell</label><br/>
+
+        <input type="checkbox" name="hp" checked="@ViewBag.hp" />
+        <label for="hp">Hp</label><br/>
+
+        <input type="checkbox" name="other" checked="@ViewBag.other" />
+        <label for="other">Другие</label><br />
+
+        <div class="Slider">
+                <label for="amount">Цена (грн.):</label>
+               
+                <input type="text" name="amount" id="amount" readonly style="border:0;
+            color:#f6931f; font-weight:bold;">
+                <div id="slider-range"></div>
+        </div>
+        <div class="Slider">
+            <label for="hdd">HDD (GB):</label>
+            <input type="text" name="hdd" id="hdd" readonly style="border:0;
+            color:#f6931f; font-weight:bold;">
+            <div id="slider-hdd"></div>
+        </div>
+        <div class="Slider">
+            <label for="freq">Частота (GHz):</label>
+            <input type="text" name="freq" id="freq" readonly style="border:0;
+            color:#f6931f; font-weight:bold;">
+            <div id="slider-freq"></div>
+        </div>
+        <div class="Slider">
+            <label for="mem">Объем ОЗУ (ГБ):</label>
+            <input type="text" name="mem" id="mem" readonly style="border:0;
+            color:#f6931f; font-weight:bold;">
+            <div id="slider-mem"></div>
+        </div>
+
+        <input type="checkbox" name="sales" class="Check" checked="@ViewBag.SalesCheck" />
+        <label class="Check" for="sales">Со скидкой</label>
+        <br />
+        <input type="checkbox" name="present" checked="@ViewBag.PresentCheck" />
+        <label for="present">В наличии</label>
+        <br />
+        <input class="FilterOK" type="submit" value="Применить" />
+    }
+</div>
+
+<div id="pages">
+    Страница @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) из @Model.PageCount
+    @Html.PagedListPager(Model, page => Url.Action("Index", "ProductsList",
+            new { page = page, sortOrder = ViewBag.SortValue,
+                categId = ViewBag.Category, currentFilter=ViewBag.CurrentFilter,
+                minPr = ViewBag.min, maxPr = ViewBag.max,
+                sales = ViewBag.SalesCheck,
+                present = ViewBag.PresentCheck,
+                minHDD = ViewBag.minHDD,
+                maxHDD = ViewBag.maxHDD,
+                minFreq = ViewBag.minFreq,
+                maxFreq = ViewBag.maxFreq,
+                minMem = ViewBag.minMem,
+                maxMem = ViewBag.maxMem,
+                acer = ViewBag.acer,
+                asus = ViewBag.asus,
+                lenovo = ViewBag.lenovo,
+                dell = ViewBag.dell,
+                hp = ViewBag.hp,
+                other = ViewBag.other
+            }, null))
+</div>
+
+<script>
+    var min = '@ViewBag.min';
+    var max = '@ViewBag.max';
+    var minHDD = '@ViewBag.minHDD';
+    var maxHDD = '@ViewBag.maxHDD';
+    var minFreq = '@ViewBag.minFreq';
+    var maxFreq = '@ViewBag.maxFreq';
+    var minMem = '@ViewBag.minMem';
+    var maxMem = '@ViewBag.maxMem';
+    var cart_counter = @Session["Carts"];
+    $( function() {
+        $( "#slider-range" ).slider({
+            range: true,
+            min: 0,
+            max: '@ViewBag.MaxPrice',
+            values: [ min, max ],
+            slide: function( event, ui ) {
+                $("#amount").val(ui.values[0] + " - " + ui.values[1]);
+            }
+        });
+        $( "#amount" ).val( $( "#slider-range" ).slider( "values", 0 ) +
+          "-" + $( "#slider-range" ).slider( "values", 1 ) );
+    });
+    $( function() {
+        $( "#slider-hdd" ).slider({
+            range: true,
+            min: 0,
+            max: '@ViewBag.MaxHddSize',
+            values: [ minHDD, maxHDD ],
+            slide: function( event, ui ) {
+                $("#hdd").val(ui.values[0] + " - " + ui.values[1]);
+            }
+        });
+        $( "#hdd" ).val( $( "#slider-hdd" ).slider( "values", 0 ) +
+          "-" + $( "#slider-hdd" ).slider( "values", 1 ) );
+    });
+    $( function() {
+        $( "#slider-freq" ).slider({
+            range: true,
+            min: 0,
+            max: 10,
+            values: [ minFreq, maxFreq ],
+            slide: function( event, ui ) {
+                $("#freq").val(ui.values[0] + " - " + ui.values[1]);
+            }
+        });
+        $( "#freq" ).val( $( "#slider-freq" ).slider( "values", 0 ) +
+          "-" + $( "#slider-freq" ).slider( "values", 1 ) );
+    });
+    $( function() {
+        $( "#slider-mem" ).slider({
+            range: true,
+            min: 0,
+            max: '@ViewBag.MaxMemory',
+            values: [ minMem, maxMem ],
+            slide: function( event, ui ) {
+                $("#mem").val(ui.values[0] + " - " + ui.values[1]);
+            }
+        });
+        $( "#mem" ).val( $( "#slider-mem" ).slider( "values", 0 ) +
+          "-" + $( "#slider-mem" ).slider( "values", 1 ) );
+    });
+
+    $(".buythis").click(function () {
+
+        var url = "@Url.Action("AddItem", "Carts")";
+        var cart_id = $(this).parent().find("input:hidden")[0].value;
+        $.ajax({
+            type: "POST",
+            data: { "prId": cart_id },
+            url: url,
+            success: function (result) {
+                cart_counter = cart_counter+1;
+                $(".session_carts").html(cart_counter);
+            }
+        });
+    })
+</script>

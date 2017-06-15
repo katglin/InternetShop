@@ -1,0 +1,232 @@
+﻿
+@model WebShop.Models.StaticModel
+
+<<<<<<< HEAD
+@{
+    ViewBag.Title = "Редактирование статических страниц";
+    Layout = "~/Views/Shared/Wrapper.cshtml";
+}
+
+
+
+<meta charset="utf-8">
+
+<script type="text/javascript" charset="utf8" src="~/Scripts/ckeditor/ckeditor.js"></script>
+
+
+@using (Html.BeginForm("EditAll", "Home", FormMethod.Post))
+{
+    <div>
+        <table class="col-md-12">
+
+
+
+
+            <tr>
+
+                @Html.HiddenFor(x => x.Static_id)
+
+                <td>
+
+                    @Html.Label("Информация о нас:")<br />
+                    @Html.TextAreaFor(x => x.About_shop, new { cols = "50", rows = "10", id = "editor1", name = "editor1" })
+                    <script>
+=======
+    @{
+        ViewBag.Title = "Редактирование статических страниц";
+        Layout = "~/Views/Shared/Wrapper.cshtml";
+    }
+
+
+
+    <meta charset="utf-8">
+    
+        <script type="text/javascript" charset="utf8" src="~/Scripts/ckeditor/ckeditor.js"></script>
+       
+
+@using (Html.BeginForm("EditAll", "Home",FormMethod.Post))
+{
+        <div>
+            <table class="col-md-12">
+
+           
+               
+                
+                        <tr>
+                          
+                                  @Html.HiddenFor(x =>x.Static_id)
+                           
+                            <td>
+                              
+                                @Html.Label("Информация о нас:")<br />
+                                @Html.TextAreaFor(x=>x.About_shop, new { cols = "50", rows = "10", id = "editor1", name="editor1" })
+                                <script>
+>>>>>>> origin/Development_Sprint_2
+                                    var editor = CKEDITOR.replace('editor1');
+
+                                    // The "change" event is fired whenever a change is made in the editor.
+                                    editor.on('change', function (evt) {
+                                        // getData() returns CKEditor's HTML content.
+                                        console.log('Total bytes: ' + evt.editor.getData().length);
+                                    });
+<<<<<<< HEAD
+                    </script>
+
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    @Html.Label("Доставка товара:")<br />
+
+                    @Html.TextAreaFor(x => x.Delivery, new { cols = "50", rows = "10", id = "editor2", name = "editor2" })
+                    <script>
+=======
+                                </script>
+                               
+                              
+                            </td>
+                        </tr>
+                
+                        <tr>
+                            <td>
+                                @Html.Label("Доставка товара:")<br />
+                              
+                                @Html.TextAreaFor(x => x.Delivery, new { cols = "50", rows = "10", id="editor2", name="editor2" })
+                                <script>
+>>>>>>> origin/Development_Sprint_2
+                                    var editor = CKEDITOR.replace('editor2');
+
+                                    // The "change" event is fired whenever a change is made in the editor.
+                                    editor.on('change', function (evt) {
+                                        // getData() returns CKEditor's HTML content.
+                                        console.log('Total bytes: ' + evt.editor.getData().length);
+                                    });
+<<<<<<< HEAD
+                    </script>
+
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.Label("Акции:")<br />
+                    @Html.TextAreaFor(x => x.Sales, new { cols = "50", rows = "10", id = "editor3", name = "editor3" })
+                    <script>
+=======
+                                </script>
+
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                @Html.Label("Акции:")<br />
+                                @Html.TextAreaFor(x => x.Sales, new { cols = "50", rows = "10", id="editor3", name="editor3" })
+                                <script>
+>>>>>>> origin/Development_Sprint_2
+                                    var editor = CKEDITOR.replace('editor3');
+
+                                    // The "change" event is fired whenever a change is made in the editor.
+                                    editor.on('change', function (evt) {
+                                        // getData() returns CKEditor's HTML content.
+                                        console.log('Total bytes: ' + evt.editor.getData().length);
+                                    });
+<<<<<<< HEAD
+                    </script>
+
+
+                </td>
+            </tr>
+
+
+        </table>
+    </div>
+
+
+
+    <script src="ckeditor/ckeditor.js"></script>
+    <script src="ckeditor/adapters/jquery.js"></script>
+
+
+    <input type="submit" value="Сохранить" class="Update" />
+        @Html.ActionLink("Отменить изменения и вернуться на главную страницу  ", "Index", null, new
+   {
+
+       @class = "btn btn-default"
+   })
+
+}
+
+
+=======
+                                </script>
+                              
+                                
+                            </td>
+                        </tr>
+
+
+                    </table>
+</div>
+
+
+
+<script src="ckeditor/ckeditor.js"></script>
+<script src="ckeditor/adapters/jquery.js"></script>
+
+
+        <input type="submit" value="Сохранить"  class="Update" />
+        @Html.ActionLink("Отменить изменения и вернуться на главную страницу  ", "Index", null, new
+       {
+
+           @class = "btn btn-default"
+       })
+
+    }
+
+      
+>>>>>>> origin/Development_Sprint_2
+
+
+
+<script type="text/javascript">
+
+    $(function () {
+        $("form").submit(encode_utf8);
+    });
+
+
+
+    function encode_utf8()
+    {
+        var data1 = CKEDITOR.instances.editor1.getData();
+        var data2 = CKEDITOR.instances.editor2.getData();
+        var data3 = CKEDITOR.instances.editor3.getData();
+
+
+        $.ajax({
+            url: "@Url.Action("EditAll")",
+            type: "POST",
+            data: {
+                Static_id: $("#Static_id").val(),
+                About_shop: decodeURIComponent(data1),
+                Delivery: decodeURIComponent(data2),
+                Sales: decodeURIComponent(data3)
+<<<<<<< HEAD
+
+=======
+              
+>>>>>>> origin/Development_Sprint_2
+            },
+            success: function (data) { alert(data); },
+            error: function () { alert("error"); }
+        });
+
+        return false;
+ }
+</script>
+
+
+

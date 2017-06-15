@@ -1,0 +1,33 @@
+﻿@model IEnumerable<WebShop.Models.Example>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table>
+    <thead>
+    <th>
+        @Html.DisplayNameFor(model => model.Id)
+    </th>
+
+    <th>
+        @Html.DisplayNameFor(model => model.Title)
+    </th>
+    </thead>
+    <tbody>
+        @if (Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(model => item.Id)</td>
+                    <td>@Html.DisplayFor(model => item.Title)</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+<p>@Html.ActionLink("Add one", "AddOne") </p>
+

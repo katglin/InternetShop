@@ -1,0 +1,82 @@
+﻿@model IEnumerable<WebShop.Models.StaticModel>
+@{
+    ViewBag.Title = "Редактирование статических страниц";
+    Layout = "~/Views/Shared/Wrapper.cshtml";
+}
+   
+
+
+<h2>@ViewBag.Title</h2>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>EditAll</title>
+</head>
+<body>
+    @using (Html.BeginForm("EditAll", "StaticModel"))
+    {
+        <div class="form-group col-md-12">
+            @Html.LabelFor(model => model.Static_id, "Артикул", new { @class = "control-label" })
+            @Html.DisplayFor(model => model.Artikul)
+            @Html.HiddenFor(model => model.Artikul)
+            @*<div class="col-md-10">
+                    @Html.TextBoxFor(model => model.Artikul, new { @class = "form-control", disabled ="disabled"})
+                </div>*@
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, "Имя", new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Mark, "Марка", new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Mark, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Cost, "Цена", new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Cost, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Sale, "Скидка", new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Sale, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Sale_cost, "Цена со скидкой", new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Sale_cost, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Amount_store, "Количество на складе", new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Amount_store, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Visible, "Видимость на сайте", new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.CheckBoxFor(model => model.Visible, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Popularity, "Популярность", new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Popularity, new { @class = "form-control", disabled = "disabled" })
+            </div>
+        </div>
+
+        <input type="submit" value="Изменить" class="Update" />
+    }
+</body>
+</html>
+
+

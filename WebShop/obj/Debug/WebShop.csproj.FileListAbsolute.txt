@@ -1,0 +1,713 @@
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\obj\Debug\WebShop.csprojResolveAssemblyReference.cache
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\obj\Debug\WebShop.Migrations.DataMigration.resources
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\obj\Debug\WebShop.csproj.GenerateResource.Cache
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\ApplicationInsights.config
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\roslyn\csc.exe
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\roslyn\vbc.exe
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\WebShop.dll.config
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\WebShop.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\WebShop.pdb
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Antlr3.Runtime.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\ClassLibrary1.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Datatables.Mvc.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Duke.Owin.VkontakteMiddleware.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\EntityFramework.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\EntityFramework.SqlServer.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Facebook.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.AI.Web.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Newtonsoft.Json.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Owin.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\PagedList.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\PagedList.Mvc.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\System.Web.Helpers.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\System.Web.Mvc.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\System.Web.Optimization.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\System.Web.Razor.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\WebGrease.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\WebShop.Models.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\WebShop.DAL.Repository.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\WebShop.DAL.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\ClassLibrary1.pdb
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\WebShop.Models.pdb
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Datatables.Mvc.pdb
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Datatables.Mvc.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Facebook.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.AI.Web.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\PagedList.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\PagedList.Mvc.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\System.Web.Helpers.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\System.Web.Mvc.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\System.Web.Optimization.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\System.Web.Razor.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Antlr3.Runtime.pdb
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Newtonsoft.Json.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\EntityFramework.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\EntityFramework.SqlServer.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\WebShop.DAL.Repository.pdb
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\bin\WebShop.DAL.pdb
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\obj\Debug\WebShop.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop\obj\Debug\WebShop.pdb
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\ApplicationInsights.config
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\roslyn\csc.exe
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\roslyn\vbc.exe
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\WebShop.dll.config
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\WebShop.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\WebShop.pdb
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Antlr3.Runtime.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\ClassLibrary1.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Datatables.Mvc.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Duke.Owin.VkontakteMiddleware.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\EntityFramework.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\EntityFramework.SqlServer.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Facebook.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.AI.Web.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Newtonsoft.Json.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Owin.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\PagedList.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\PagedList.Mvc.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\System.Web.Helpers.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\System.Web.Mvc.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\System.Web.Optimization.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\System.Web.Razor.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\WebGrease.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\WebShop.Models.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\WebShop.DAL.Repository.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\WebShop.DAL.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\ClassLibrary1.pdb
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\WebShop.Models.pdb
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Datatables.Mvc.pdb
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Datatables.Mvc.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Facebook.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.AI.Web.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\PagedList.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\PagedList.Mvc.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\System.Web.Helpers.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\System.Web.Mvc.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\System.Web.Optimization.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\System.Web.Razor.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Antlr3.Runtime.pdb
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Newtonsoft.Json.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\EntityFramework.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\EntityFramework.SqlServer.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\WebShop.DAL.Repository.pdb
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\bin\WebShop.DAL.pdb
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\obj\Debug\WebShop.csprojResolveAssemblyReference.cache
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\obj\Debug\WebShop.Migrations.DataMigration.resources
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\obj\Debug\WebShop.csproj.GenerateResource.Cache
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\obj\Debug\WebShop.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop\obj\Debug\WebShop.pdb
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\ApplicationInsights.config
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\roslyn\csc.exe
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\roslyn\vbc.exe
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\WebShop.dll.config
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\WebShop.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\WebShop.pdb
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Antlr3.Runtime.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\ClassLibrary1.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Datatables.Mvc.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Duke.Owin.VkontakteMiddleware.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\EntityFramework.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\EntityFramework.SqlServer.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Facebook.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.AI.Web.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Newtonsoft.Json.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Owin.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\PagedList.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\PagedList.Mvc.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\System.Web.Helpers.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\System.Web.Mvc.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\System.Web.Optimization.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\System.Web.Razor.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\WebGrease.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\WebShop.Models.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\WebShop.DAL.Repository.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\WebShop.DAL.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\ClassLibrary1.pdb
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\WebShop.Models.pdb
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Datatables.Mvc.pdb
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Datatables.Mvc.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Facebook.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.AI.Web.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\PagedList.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\PagedList.Mvc.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\System.Web.Helpers.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\System.Web.Mvc.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\System.Web.Optimization.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\System.Web.Razor.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Antlr3.Runtime.pdb
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Newtonsoft.Json.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\EntityFramework.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\EntityFramework.SqlServer.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\WebShop.DAL.Repository.pdb
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\bin\WebShop.DAL.pdb
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\obj\Debug\WebShop.csprojResolveAssemblyReference.cache
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\obj\Debug\WebShop.Migrations.DataMigration.resources
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\obj\Debug\WebShop.csproj.GenerateResource.Cache
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\obj\Debug\WebShop.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop\obj\Debug\WebShop.pdb
+G:\IntShop\InternetShop\WebShop\bin\ApplicationInsights.config
+G:\IntShop\InternetShop\WebShop\bin\roslyn\csc.exe
+G:\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\IntShop\InternetShop\WebShop\bin\roslyn\System.Collections.Immutable.dll
+G:\IntShop\InternetShop\WebShop\bin\roslyn\System.Reflection.Metadata.dll
+G:\IntShop\InternetShop\WebShop\bin\roslyn\vbc.exe
+G:\IntShop\InternetShop\WebShop\bin\roslyn\VBCSCompiler.exe
+G:\IntShop\InternetShop\WebShop\bin\roslyn\VBCSCompiler.exe.config
+G:\IntShop\InternetShop\WebShop\bin\WebShop.dll.config
+G:\IntShop\InternetShop\WebShop\bin\WebShop.dll
+G:\IntShop\InternetShop\WebShop\bin\WebShop.pdb
+G:\IntShop\InternetShop\WebShop\bin\Antlr3.Runtime.dll
+G:\IntShop\InternetShop\WebShop\bin\ClassLibrary1.dll
+G:\IntShop\InternetShop\WebShop\bin\Datatables.Mvc.dll
+G:\IntShop\InternetShop\WebShop\bin\Duke.Owin.VkontakteMiddleware.dll
+G:\IntShop\InternetShop\WebShop\bin\EntityFramework.dll
+G:\IntShop\InternetShop\WebShop\bin\EntityFramework.SqlServer.dll
+G:\IntShop\InternetShop\WebShop\bin\Facebook.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.AI.Agent.Intercept.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.AI.DependencyCollector.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.AI.Web.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.AI.WindowsServer.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.ApplicationInsights.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Core.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Cookies.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Facebook.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Google.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.OAuth.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Twitter.dll
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Web.Infrastructure.dll
+G:\IntShop\InternetShop\WebShop\bin\Newtonsoft.Json.dll
+G:\IntShop\InternetShop\WebShop\bin\Owin.dll
+G:\IntShop\InternetShop\WebShop\bin\PagedList.dll
+G:\IntShop\InternetShop\WebShop\bin\PagedList.Mvc.dll
+G:\IntShop\InternetShop\WebShop\bin\System.Web.Helpers.dll
+G:\IntShop\InternetShop\WebShop\bin\System.Web.Mvc.dll
+G:\IntShop\InternetShop\WebShop\bin\System.Web.Optimization.dll
+G:\IntShop\InternetShop\WebShop\bin\System.Web.Razor.dll
+G:\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Deployment.dll
+G:\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.dll
+G:\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Razor.dll
+G:\IntShop\InternetShop\WebShop\bin\WebGrease.dll
+G:\IntShop\InternetShop\WebShop\bin\WebShop.Models.dll
+G:\IntShop\InternetShop\WebShop\bin\WebShop.DAL.Repository.dll
+G:\IntShop\InternetShop\WebShop\bin\WebShop.DAL.dll
+G:\IntShop\InternetShop\WebShop\bin\ClassLibrary1.pdb
+G:\IntShop\InternetShop\WebShop\bin\WebShop.Models.pdb
+G:\IntShop\InternetShop\WebShop\bin\Datatables.Mvc.pdb
+G:\IntShop\InternetShop\WebShop\bin\Datatables.Mvc.xml
+G:\IntShop\InternetShop\WebShop\bin\Facebook.xml
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.AI.DependencyCollector.xml
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.AI.Web.xml
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.AI.WindowsServer.xml
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.ApplicationInsights.xml
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\IntShop\InternetShop\WebShop\bin\PagedList.xml
+G:\IntShop\InternetShop\WebShop\bin\PagedList.Mvc.xml
+G:\IntShop\InternetShop\WebShop\bin\System.Web.Helpers.xml
+G:\IntShop\InternetShop\WebShop\bin\System.Web.Mvc.xml
+G:\IntShop\InternetShop\WebShop\bin\System.Web.Optimization.xml
+G:\IntShop\InternetShop\WebShop\bin\System.Web.Razor.xml
+G:\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.xml
+G:\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Deployment.xml
+G:\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Razor.xml
+G:\IntShop\InternetShop\WebShop\bin\Antlr3.Runtime.pdb
+G:\IntShop\InternetShop\WebShop\bin\Newtonsoft.Json.xml
+G:\IntShop\InternetShop\WebShop\bin\EntityFramework.xml
+G:\IntShop\InternetShop\WebShop\bin\EntityFramework.SqlServer.xml
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Core.xml
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.xml
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.xml
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Facebook.xml
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Cookies.xml
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.OAuth.xml
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Google.xml
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Twitter.xml
+G:\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\IntShop\InternetShop\WebShop\bin\WebShop.DAL.Repository.pdb
+G:\IntShop\InternetShop\WebShop\bin\WebShop.DAL.pdb
+G:\IntShop\InternetShop\WebShop\obj\Debug\WebShop.csprojResolveAssemblyReference.cache
+G:\IntShop\InternetShop\WebShop\obj\Debug\WebShop.Migrations.DataMigration.resources
+G:\IntShop\InternetShop\WebShop\obj\Debug\WebShop.csproj.GenerateResource.Cache
+G:\IntShop\InternetShop\WebShop\obj\Debug\WebShop.dll
+G:\IntShop\InternetShop\WebShop\obj\Debug\WebShop.pdb
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\ApplicationInsights.config
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\roslyn\csc.exe
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\roslyn\System.Collections.Immutable.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\roslyn\System.Reflection.Metadata.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\roslyn\vbc.exe
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\roslyn\VBCSCompiler.exe
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\roslyn\VBCSCompiler.exe.config
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\WebShop.dll.config
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\WebShop.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\WebShop.pdb
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Antlr3.Runtime.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\ClassLibrary1.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Datatables.Mvc.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Duke.Owin.VkontakteMiddleware.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\EntityFramework.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\EntityFramework.SqlServer.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Facebook.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.AI.DependencyCollector.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.AI.Web.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.AI.WindowsServer.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.ApplicationInsights.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Google.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Web.Infrastructure.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Newtonsoft.Json.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Owin.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\PagedList.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\PagedList.Mvc.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\System.Web.Helpers.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\System.Web.Mvc.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\System.Web.Optimization.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\System.Web.Razor.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Deployment.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Razor.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\WebGrease.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\WebShop.Models.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\WebShop.DAL.Repository.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\WebShop.DAL.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\ClassLibrary1.pdb
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\WebShop.Models.pdb
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Datatables.Mvc.pdb
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Datatables.Mvc.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Facebook.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.AI.DependencyCollector.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.AI.Web.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.AI.WindowsServer.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.ApplicationInsights.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\PagedList.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\PagedList.Mvc.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\System.Web.Helpers.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\System.Web.Mvc.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\System.Web.Optimization.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\System.Web.Razor.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Deployment.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\System.Web.WebPages.Razor.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Antlr3.Runtime.pdb
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Newtonsoft.Json.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\EntityFramework.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\EntityFramework.SqlServer.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Google.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\WebShop.DAL.Repository.pdb
+D:\Apriorit\IntShop\InternetShop\WebShop\bin\WebShop.DAL.pdb
+D:\Apriorit\IntShop\InternetShop\WebShop\obj\Debug\WebShop.csprojResolveAssemblyReference.cache
+D:\Apriorit\IntShop\InternetShop\WebShop\obj\Debug\WebShop.Migrations.DataMigration.resources
+D:\Apriorit\IntShop\InternetShop\WebShop\obj\Debug\WebShop.csproj.GenerateResource.Cache
+D:\Apriorit\IntShop\InternetShop\WebShop\obj\Debug\WebShop.dll
+D:\Apriorit\IntShop\InternetShop\WebShop\obj\Debug\WebShop.pdb
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\ApplicationInsights.config
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\csc.exe
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\System.Collections.Immutable.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\System.Reflection.Metadata.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\vbc.exe
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\VBCSCompiler.exe
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\VBCSCompiler.exe.config
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\WebShop.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\WebShop.pdb
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Antlr3.Runtime.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\ClassLibrary1.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Datatables.Mvc.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Duke.Owin.VkontakteMiddleware.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\EntityFramework.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\EntityFramework.SqlServer.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Facebook.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.DependencyCollector.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.Web.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.WindowsServer.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.ApplicationInsights.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.Google.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Web.Infrastructure.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Newtonsoft.Json.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Owin.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\PagedList.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\PagedList.Mvc.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.Helpers.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.Mvc.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.Optimization.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.Razor.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.WebPages.Deployment.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.WebPages.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.WebPages.Razor.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\WebGrease.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\WebShop.Models.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\WebShop.DAL.Repository.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\WebShop.DAL.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\ClassLibrary1.pdb
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\WebShop.Models.pdb
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Datatables.Mvc.pdb
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Datatables.Mvc.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Facebook.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.DependencyCollector.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.Web.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.WindowsServer.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.ApplicationInsights.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\PagedList.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\PagedList.Mvc.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.Helpers.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.Mvc.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.Optimization.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.Razor.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.WebPages.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.WebPages.Deployment.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.WebPages.Razor.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Antlr3.Runtime.pdb
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Newtonsoft.Json.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\EntityFramework.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\EntityFramework.SqlServer.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.Google.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\WebShop.DAL.Repository.pdb
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\bin\WebShop.DAL.pdb
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\obj\Debug\WebShop.csprojResolveAssemblyReference.cache
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\obj\Debug\WebShop.Migrations.DataMigration.resources
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\obj\Debug\WebShop.csproj.GenerateResource.Cache
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\obj\Debug\WebShop.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop\obj\Debug\WebShop.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\ApplicationInsights.config
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\csc.exe
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\System.Collections.Immutable.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\System.Reflection.Metadata.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\vbc.exe
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\VBCSCompiler.exe
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\roslyn\VBCSCompiler.exe.config
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\WebShop.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\WebShop.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Antlr3.Runtime.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\ClassLibrary1.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Datatables.Mvc.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Duke.Owin.VkontakteMiddleware.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\EntityFramework.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\EntityFramework.SqlServer.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Facebook.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.DependencyCollector.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.Web.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.WindowsServer.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.ApplicationInsights.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.Google.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Web.Infrastructure.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Newtonsoft.Json.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Owin.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\PagedList.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\PagedList.Mvc.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.Helpers.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.Mvc.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.Optimization.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.Razor.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.WebPages.Deployment.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.WebPages.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.WebPages.Razor.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\WebGrease.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\WebShop.Models.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\WebShop.DAL.Repository.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\WebShop.DAL.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\ClassLibrary1.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\WebShop.Models.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Datatables.Mvc.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Datatables.Mvc.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Facebook.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.DependencyCollector.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.Web.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AI.WindowsServer.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.ApplicationInsights.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\PagedList.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\PagedList.Mvc.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.Helpers.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.Mvc.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.Optimization.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.Razor.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.WebPages.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.WebPages.Deployment.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\System.Web.WebPages.Razor.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Antlr3.Runtime.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Newtonsoft.Json.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\EntityFramework.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\EntityFramework.SqlServer.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.Google.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\WebShop.DAL.Repository.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\WebShop.DAL.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\obj\Debug\WebShop.csprojResolveAssemblyReference.cache
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\obj\Debug\WebShop.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\obj\Debug\WebShop.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\bin\WebShop.dll.config
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\obj\Debug\WebShop.Migrations.hdd.resources
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop\obj\Debug\WebShop.csproj.GenerateResource.Cache

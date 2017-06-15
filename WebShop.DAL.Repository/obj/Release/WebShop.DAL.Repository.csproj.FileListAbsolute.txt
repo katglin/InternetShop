@@ -1,0 +1,48 @@
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.Repository.dll.config
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.Repository.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.Repository.pdb
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\EntityFramework.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.pdb
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\EntityFramework.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL.Repository\obj\Release\WebShop.DAL.Repository.csprojResolveAssemblyReference.cache
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL.Repository\obj\Release\WebShop.DAL.Repository.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL.Repository\obj\Release\WebShop.DAL.Repository.pdb
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.Repository.dll.config
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.Repository.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.Repository.pdb
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\EntityFramework.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.pdb
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\EntityFramework.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop.DAL.Repository\obj\Release\WebShop.DAL.Repository.csprojResolveAssemblyReference.cache
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop.DAL.Repository\obj\Release\WebShop.DAL.Repository.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop.DAL.Repository\obj\Release\WebShop.DAL.Repository.pdb
+D:\Apriorit\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.Repository.dll.config
+D:\Apriorit\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.Repository.dll
+D:\Apriorit\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.Repository.pdb
+D:\Apriorit\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\EntityFramework.dll
+D:\Apriorit\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\EntityFramework.SqlServer.dll
+D:\Apriorit\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.dll
+D:\Apriorit\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.pdb
+D:\Apriorit\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\EntityFramework.xml
+D:\Apriorit\IntShop\InternetShop\WebShop.DAL.Repository\bin\Release\EntityFramework.SqlServer.xml
+D:\Apriorit\IntShop\InternetShop\WebShop.DAL.Repository\obj\Release\WebShop.DAL.Repository.csprojResolveAssemblyReference.cache
+D:\Apriorit\IntShop\InternetShop\WebShop.DAL.Repository\obj\Release\WebShop.DAL.Repository.dll
+D:\Apriorit\IntShop\InternetShop\WebShop.DAL.Repository\obj\Release\WebShop.DAL.Repository.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.Repository.dll.config
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.Repository.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.Repository.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL.Repository\bin\Release\EntityFramework.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL.Repository\bin\Release\EntityFramework.SqlServer.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL.Repository\bin\Release\WebShop.DAL.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL.Repository\bin\Release\EntityFramework.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL.Repository\bin\Release\EntityFramework.SqlServer.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL.Repository\obj\Release\WebShop.DAL.Repository.csprojResolveAssemblyReference.cache
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL.Repository\obj\Release\WebShop.DAL.Repository.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL.Repository\obj\Release\WebShop.DAL.Repository.pdb

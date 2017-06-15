@@ -1,0 +1,76 @@
+﻿@model WebShop.Models.ExternalLoginConfirmationViewModel
+@{
+    ViewBag.Title = "Регистрация";
+}
+<h2>@ViewBag.Title.</h2>
+<h3> Привяжите ваш @ViewBag.LoginProvider аккаунт</h3>
+
+@using (Html.BeginForm("ExternalLoginConfirmation", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <hr />
+    <div style="color: red;">@ViewBag.result</div>
+    //   @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <p class="text-info">
+        Вы успешно авторизировались с помощью соцсети <strong>@ViewBag.LoginProvider</strong>.
+        Пожалуйста, заполните оставшиеся данные о себе, чтобы закончить регистрацию и войти в систему.
+    </p>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Email, new { @type = "email", @class = "form-control"})
+            @Html.ValidationMessageFor(m => m.Email, "Недопустимый email", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.NewPassword, new { @class = "col-md-2 control-label"})
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.NewPassword, new { @class = "form-control", type = "password" })
+            @Html.ValidationMessageFor(m => m.NewPassword, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.ConfirmPassword, new { @class = "form-control", type = "password" })
+            @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Country, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Country, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Country, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.City, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.City, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.City, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Phone, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Phone, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Phone, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" class="btn btn-default" value="Регистрация" />
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+@*<script type="text/javascript">
+    if (window.location.hash == '#_=_') {
+        history.replaceState
+            ? history.replaceState(null, null, window.location.href.split('#')[0])
+            : window.location.hash = '';
+    }
+</script>*@

@@ -1,0 +1,39 @@
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL\bin\Debug\WebShop.DAL.dll.config
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL\bin\Debug\WebShop.DAL.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL\bin\Debug\WebShop.DAL.pdb
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL\bin\Debug\EntityFramework.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL\bin\Debug\EntityFramework.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL\obj\Debug\WebShop.DAL.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.DAL\obj\Debug\WebShop.DAL.pdb
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop.DAL\bin\Debug\WebShop.DAL.dll.config
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop.DAL\bin\Debug\WebShop.DAL.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop.DAL\bin\Debug\WebShop.DAL.pdb
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop.DAL\bin\Debug\EntityFramework.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop.DAL\bin\Debug\EntityFramework.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop.DAL\obj\Debug\WebShop.DAL.csprojResolveAssemblyReference.cache
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop.DAL\obj\Debug\WebShop.DAL.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop.DAL\obj\Debug\WebShop.DAL.pdb
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop.DAL\bin\Debug\WebShop.DAL.dll.config
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop.DAL\bin\Debug\WebShop.DAL.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop.DAL\bin\Debug\WebShop.DAL.pdb
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop.DAL\bin\Debug\EntityFramework.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop.DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop.DAL\bin\Debug\EntityFramework.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop.DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop.DAL\obj\Debug\WebShop.DAL.csprojResolveAssemblyReference.cache
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop.DAL\obj\Debug\WebShop.DAL.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop.DAL\obj\Debug\WebShop.DAL.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL\bin\Debug\WebShop.DAL.dll.config
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL\bin\Debug\WebShop.DAL.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL\bin\Debug\WebShop.DAL.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL\bin\Debug\EntityFramework.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL\bin\Debug\EntityFramework.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL\obj\Debug\WebShop.DAL.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL\obj\Debug\WebShop.DAL.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.DAL\obj\Debug\WebShop.DAL.csprojResolveAssemblyReference.cache

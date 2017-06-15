@@ -1,0 +1,20 @@
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.Models\bin\Debug\WebShop.Models.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.Models\bin\Debug\WebShop.Models.pdb
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.Models\obj\Debug\WebShop.Models.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.Models\obj\Debug\WebShop.Models.pdb
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.Models\obj\Debug\WebShop.Models.csprojResolveAssemblyReference.cache
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop.Models\bin\Debug\WebShop.Models.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop.Models\bin\Debug\WebShop.Models.pdb
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop.Models\obj\Debug\WebShop.Models.csprojResolveAssemblyReference.cache
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop.Models\obj\Debug\WebShop.Models.dll
+C:\Users\katya_000\Desktop\IntShop\InternetShop\WebShop.Models\obj\Debug\WebShop.Models.pdb
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop.Models\bin\Debug\WebShop.Models.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop.Models\bin\Debug\WebShop.Models.pdb
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop.Models\obj\Debug\WebShop.Models.csprojResolveAssemblyReference.cache
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop.Models\obj\Debug\WebShop.Models.dll
+E:\Apriorit\IntShop-last work ver\InternetShop\WebShop.Models\obj\Debug\WebShop.Models.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.Models\bin\Debug\WebShop.Models.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.Models\bin\Debug\WebShop.Models.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.Models\obj\Debug\WebShop.Models.csprojResolveAssemblyReference.cache
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.Models\obj\Debug\WebShop.Models.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.Models\obj\Debug\WebShop.Models.pdb

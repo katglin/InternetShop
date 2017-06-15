@@ -1,0 +1,200 @@
+﻿@model WebShop.Models.ProductPageModel
+@{
+    ViewBag.Title = "Добавление товара";
+    Layout = "~/Views/Shared/Wrapper.cshtml";
+}
+@*<script src="~/Scripts/jquery-ui-1.12.0.js"></script>
+<link href="~/Content/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />*@
+<h2>@ViewBag.Title</h2>
+@*<!DOCTYPE html>
+
+<html>
+<head>
+    
+    <title>Index</title>
+</head>
+<body>*@
+<meta name="viewport" content="width=device-width" />
+
+    
+    <fieldset style="height: 100%">
+        @*<section id="adding" class="section">*@
+            @using (Html.BeginForm("AddOne", "Product", FormMethod.Post))
+            {
+                @*<div class="form-group">
+                    @Html.LabelFor(model => model.Artikul, "Артикул", new { @class = "col-md-2 control-label" })
+                    <div class="col-md-10">
+                        @Html.DisplayFor(model => model.Artikul)
+                        @Html.HiddenFor(model => model.Artikul)
+                                        @Html.TextBoxFor(model => model.Artikul, new { @class = "form-control", disabled = "disabled" })
+                            </div>
+                        </div>*@
+                
+                    <div class="form-group row">
+                    
+                        @Html.LabelFor(model => model.img, "Изображение", new { @class = "col-md-2 control-label" })
+                        
+                       <div class="col-md-10">
+                            @{ foreach (var im in Model.img)
+                                {              
+                                    @Html.TextBoxFor(model => im, new { @class = "form-control", @readonly = "readonly" })
+                                }
+                            }
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.Name, "Имя", new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.Mark, "Марка", new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(model => model.Mark, new { @class = "form-control" })
+                        </div>
+                    </div>
+
+
+                    <div class="form-group row">
+                        <label for="categories" class="col-md-2 control-label">Категории</label>
+                        <div class="col-md-10">
+                            @{
+                                List<WebShop.Models.PrCategoryModel> Categories = ViewBag.Categories;
+                                foreach (var c in Categories)
+                                {
+
+                                    <label class="checkbox">
+                                        <input type="checkbox" name="categories" value="@c.Category_id"> @c.Category
+                                    </label>
+
+                                }
+                            }
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.HDD_id, "Накопитель", new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(model => model.HDD_id, new SelectList(ViewBag.Hdds, "HDD_id", "HDD"))
+                            ГБ
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.Memory_id, "Оперативная память", new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(model => model.Memory_id, new SelectList(ViewBag.Mems, "Memory_id", "Memory"))
+                            ГБ
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.Proc_id, "Процессор", new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(model => model.Proc_id, new SelectList(ViewBag.Processors, 
+                                                        "Proc_id", "ProcessorProducer"))
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.VideoMemory, "Видеокарта", new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(model => model.Video_id, new SelectList(ViewBag.Videocards,
+                                                        "Video_id", "VideoProducer"))
+                        </div>
+                    </div>
+
+                        <div class="form-group row">
+                            @Html.LabelFor(model => model.Cost, "Цена", new { @class = "col-md-2 control-label" })
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(model => model.Cost, new { @class = "form-control", type = "number", min = "0", max = "100000" })
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            @Html.LabelFor(model => model.Sale, "Скидка (%)", new { @class = "col-md-2 control-label" })
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(model => model.Sale, new { @class = "form-control", type = "number", min = "0", max = "99" })
+                                @*@Html.ValidationMessageFor(model => (model.Sale<0)||(model.Sale>=100),"Скидка вариируется от 0 до 99 %")*@
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            @Html.LabelFor(model => model.Sale_cost, "Цена со скидкой", new { @class = "col-md-2 control-label" })
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(model => model.Sale_cost, new { @class = "form-control", @readonly = "readonly" })
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            @Html.LabelFor(model => model.Amount_store, "Количество на складе", new { @class = "col-md-2 control-label" })
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(model => model.Amount_store, new { @class = "form-control", type = "number", min = "0", max = "100000" })
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            @Html.LabelFor(model => model.Visible, "Видимость на сайте", new { @class = "col-md-2 control-label" })
+                            <div class="col-md-10">
+                                @Html.CheckBoxFor(model => model.Visible, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            @Html.LabelFor(model => model.Information, "Информация", new { @class = "col-md-2 control-label" })
+                            <div class="col-md-10">
+                                @Html.TextAreaFor(model => model.Information, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            @Html.LabelFor(model => model.Popularity, "Популярность", new { @class = "col-md-2 control-label" })
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(model => model.Popularity, new { @class = "form-control", @readonly = "readonly" })
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <input type="submit" value="Добавить" />
+                        </div>
+                        }
+
+
+</fieldset>
+                    <script type="text/javascript">
+                        $("#Cost").focusout(function () {
+
+                            var url = "@Url.Action("Calculate"/*имя экшина*/, "Product"/*имя контроллера*/)";
+                            var Cost = document.getElementById("Cost").value;//$('div:eq(4)').val();
+                            var Sale = document.getElementById("Sale").value;
+                            var Result;
+                            $.ajax({
+                                type: "POST",
+                                data: { "cost": Cost, "sale": Sale },
+                                url: url,
+                                success: function (result) {
+                                    $('#Sale_cost').attr('value', result);
+                                }
+                            });
+                        });
+                    </script>
+                    <script type="text/javascript">
+                        $("#Sale").focusout(function () {
+
+                            var url = "@Url.Action("Calculate"/*имя экшина*/, "Product"/*имя контроллера*/)";
+                            var Cost = document.getElementById("Cost").value;//$('div:eq(4)').val();
+                            var Sale = document.getElementById("Sale").value;
+                            var Result;
+                            $.ajax({
+                                type: "POST",
+                                data: { "cost": Cost, "sale": Sale },
+                                url: url,
+                                success: function (result) {
+                                    $('#Sale_cost').attr('value', result);
+                                }
+                            });
+                        });
+                    </script>
+                    @*</section>*@
+                    
+
+    @*<div class="col-md-4">
+        
+        </div>*@
+@*<section id="information">
+    <p>Тут будет какая-то инструкция</p>
+</section>*@
+@*</body>
+</html>*@
+
+

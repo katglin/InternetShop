@@ -1,0 +1,88 @@
+﻿@model WebShop.Models.Product
+@{
+    ViewBag.Title = "Я нашел!";
+    Layout = "~/Views/Shared/Wrapper.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+
+    <table class="table">
+        <tr>
+            <th>
+                <div>@Html.DisplayFor(modelItem => Model.Name,"Имя")</div>
+            </th>
+            <th>
+                <div>@Html.DisplayFor(modelItem => Model.Mark, "Марка")</div>
+            </th>
+            <th>
+                <div>@Html.DisplayFor(modelItem => Model.Cost, "Цена")</div>
+            </th>
+            <th>
+                <div>@Html.DisplayFor(modelItem => Model.Sale, "Скидка")</div>
+            </th>
+            <th>
+                <div>@Html.DisplayFor(modelItem => Model.Sale_cost, "Цена со скидкой")</div>
+            </th>
+            <th>
+                <div>@Html.DisplayFor(modelItem => Model.Amount_store, "Количество")</div>
+            </th>
+            <th>
+                <div>@Html.DisplayFor(modelItem => Model.Visible, "Видимость")</div>
+            </th>
+            <th>
+                <div>@Html.DisplayFor(modelItem => Model.Popularity, "Популярность")</div>
+            </th>
+            <th>
+                Действие
+            </th>
+            <th></th>
+        </tr>
+
+        @*@{var item = Model; }
+
+            < tr >
+                < td >
+                    @Html.DisplayFor(modelItem => item.Name)
+                </ td >
+                < td >
+                    @Html.DisplayFor(modelItem => item.Mark)
+                </ td >
+                < td >
+                    @Html.DisplayFor(modelItem => item.Cost)
+                </ td >
+                < td >
+                    @Html.DisplayFor(modelItem => item.Sale)
+                </ td >
+                < td >
+                    @Html.DisplayFor(modelItem => item.Sale_cost)
+                </ td >
+                < td >
+                    @Html.DisplayFor(modelItem => item.Amount_store)
+                </ td >
+                < td >
+                    @Html.DisplayFor(modelItem => item.Visible)
+                </ td >
+                < td >
+                    @Html.DisplayFor(modelItem => item.Popularity)
+                </ td >
+                @*<td>
+                    @Html.ActionLink("Редактировать", "Changing", "Product", new { artikul = item.Artikul }, new { style = "color:red" }) |
+                    @Html.ActionLink("Удалить", "Delete", "Product", new { artikul = item.Artikul }, new { style = "color:black" })
+                </td>
+            </ tr >*@
+        
+            
+
+    </table>
+</body>
+</html>
+
+

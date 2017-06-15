@@ -1,0 +1,111 @@
+﻿@model IEnumerable<WebShop.Models.BannerModel>
+@{
+    ViewBag.Title = "Добавление картинок для главной страницы";
+    Layout = "~/Views/Shared/Wrapper.cshtml";
+}
+<!-- DataTables CSS -->
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
+
+<!-- jQuery -->
+<script type="text/javascript" charset="utf8" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+
+<!-- DataTables -->
+<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.5/js/jquery.dataTables.js">
+</script>
+<h2>@ViewBag.Title</h2>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" charset="utf-8" />
+    <title>Index</title>
+</head>
+<body>
+    <table id="pictures" @*class="table"*@>
+        <thead>
+            <tr>
+                <th>
+                    Название товара
+                </th>
+                <th>
+                    Картинка
+                </th>
+                <th>
+                    Добавить изображение
+                </th>
+                </tr>
+            </thead>
+        <tbody>@{
+            List<WebShop.Models.Product> Products = ViewBag.Products;
+        }
+                @foreach (var item in Products)
+                {
+                    <tr>
+                        <th>
+                            <div>@Html.Label(item.Name)</div>
+                        </th>
+                        <th>
+                            @{int counter = 0;
+                                string disabled = "";
+                                foreach (var i in Model)
+                                {
+                                    if (i.Artikul == item.Artikul)
+                                    {
+                                    <img style='width:80px; height:60px;' src=@Url.Content(i.Image_path)>
+                                        counter++;
+                                    }
+                                }
+                                <br />
+                                if (counter > 4)
+                                {
+                                    disabled = "disabled='disabled'";
+                                    <label>У товара не может быть больше 5 картинок</label>
+                                }
+                                }
+                        </th>
+                        <th>
+                            @using (Html.BeginForm("Add", "Picture", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                            {
+                                <input type="hidden" name="artikul" value="@item.Artikul"/>
+                                <input type="file" name="upload" accept="image/jpeg,image/png,image/gif" @disabled/><br>
+                                <input type="submit" value="Загрузить" class="Add" @disabled/>
+                            }
+                        </th>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    <style>
+        tr.even {
+            background-color: #F5F5F5 !important;
+        }
+    </style>
+    @* Load datatable css *@
+    <link href="//cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css" rel="stylesheet" />
+    @* Load datatable js *@
+    @section Scripts{
+        <script src="//cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+        <script>
+
+            $(document).ready(function () {
+                $('#pictures').DataTable({
+                    "language": {
+                        "lengthMenu": "Отображать _MENU_ позиций на странице",
+                        "zeroRecords": "Извините, ничего не найдено",
+                        "info": "Показана страница _PAGE_ из _PAGES_",
+                        "infoEmpty": "нет доступных записей",
+                        "infoFiltered": "(просмотрено по _MAX_ позиций)",
+                        "search": "Поиск:",
+                        "paginate": {
+                            "first": "Первая",
+                            "last": "Последняя",
+                            "next": "Следующая",
+                            "previous": "Предыдущая"
+                        }
+                    }
+                });
+            });
+        </script>
+    }
+</body>
+</html>

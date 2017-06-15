@@ -1,0 +1,158 @@
+﻿@model IEnumerable<WebShop.Models.Product>
+@{
+    ViewBag.Title = "Список товаров";
+    
+    //Layout = "~/Views/Shared/Wrapper.cshtml";
+}
+<!-- DataTables CSS -->
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
+
+<!-- jQuery -->
+<script type="text/javascript" charset="utf8" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+
+<!-- DataTables -->
+<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.5/js/jquery.dataTables.js">
+</script>
+
+
+<h2>@ViewBag.Title</h2>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    
+</head>
+<body>
+    @*@{
+            using (var domainModel = new WebShop.DAL.)
+            {
+                var list = domainModel.GetAll();
+                foreach (var item in list)
+                {
+                    string name = item.Category;
+                    var id = item.Category_id;
+                    <li>
+                        @Html.ActionLink(name, "Index", "Home")
+                          Use this to pass category of product to code:
+                        @Html.ActionLink(name, "Index", "ProductsList", new { page = 1, sortOrder = "", categId = id },
+                                   new { @class = ViewBag.CategoryItem == id ? "selected" : null })
+                    </li>
+                }
+            }
+        }*@
+    @{ var domainModel = new WebShop.DAL.ProductCategory();}
+    <p>
+        @Html.ActionLink("Добавить товар", "Adding", "Product")
+    </p>
+    <div style="width:100%; margin:0 auto;">
+        <table id="products">
+            <thead>
+                <tr>
+                    <th>
+                        Имя
+                    </th>
+                    <th>
+                        Марка
+                    </th>
+                    @*<th>
+                        Категория
+                    </th>*@
+                    <th>
+                        Цена
+                    </th>
+                    <th>
+                        Скидка
+                    </th>
+                    <th>
+                        Цена со скидкой
+                    </th>
+                    <th>
+                        Количество
+                    </th>
+                    <th>
+                        Видимость
+                    </th>
+                    <th>
+                        Популярность
+                    </th>
+                    <th>
+                        Действие
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td name="Name">
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td name="Mark">
+                            @Html.DisplayFor(modelItem => item.Mark)
+                        </td>
+                        @*<td>
+    @{ var domainModel1 = new WebShop.BLL.CategoryDomainModel();
+            var categories = domainModel1.GetAll(item);}
+        @Html.DisplayFor(modelItem=> domainModel1, categories)
+        @foreach (var cat in item.Categories)
+        {
+            @Html.DisplayFor(modelItem => cat.Category)<text>,</text>
+        }
+                        </td>*@
+                        <td name="Cost">
+                            @Html.DisplayFor(modelItem => item.Cost)
+                        </td>
+                        <td name="Sale">
+                            @Html.DisplayFor(modelItem => item.Sale)
+                        </td>
+                        <td name="Sale_cost">
+                            @Html.DisplayFor(modelItem => item.Sale_cost)
+                        </td>
+                        <td name="Amount">
+                            @Html.DisplayFor(modelItem => item.Amount_store)
+                        </td>
+                        <td name="Visible">
+                            @Html.DisplayFor(modelItem => item.Visible)
+                        </td>
+                        <td name="Popularity">
+                            @Html.DisplayFor(modelItem => item.Popularity)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Редактировать", "Changing", "Product", new { artikul = item.Artikul }, new { style = "color:red" }) 
+                            @*@Html.ActionLink("Удалить", "Delete", "Product", new { artikul = item.Artikul }, new { style = "color:black" })*@
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+    </div>
+
+    <style>
+        tr.even {
+            background-color: #F5F5F5 !important;
+        }
+    </style>
+    @* Load datatable css *@
+    <link href="//cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css" rel="stylesheet" />
+    @* Load datatable js *@
+    @section Scripts{
+        <script src="//cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+        <script>
+
+            $(document).ready(function () {
+                $('#products').DataTable({
+                });
+            });
+        </script>
+    }
+</body>
+</html>
+
+
+
+
+
+
+

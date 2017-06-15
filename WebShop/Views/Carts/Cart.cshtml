@@ -1,0 +1,149 @@
+﻿@model List <WebShop.Models.CartModel>
+
+<h2>Корзина покупок</h2>
+<div>
+    @using (Html.BeginForm())
+    {
+        <table class="table" id='myTable'>
+            <thead>
+                <tr>
+                    <th>
+                        <input type="checkbox" id="Test" name="Test" />
+                    </th>
+                    <th>
+                        @*Артикул*@
+                    </th>
+                    <th>
+                        Наименование
+                    </th>
+                    <th>
+                        Производитель
+                    </th>
+                    <th>
+                        Цена (грн/шт.)
+                    </th>
+                    <th>
+                        Количество
+                    </th>
+                    <th>
+                        Всего (грн)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                        <tr>
+                                @Html.HiddenFor(m => m[i].Cart_id, new { @class = "cart_id" })
+                                @Html.HiddenFor(m => m[i].User_id)
+                                @Html.HiddenFor(m => m[i].IP)
+                                <td>
+                                    @Html.CheckBoxFor(m => m[i].Buy)
+                                </td>
+                                <td>
+                                    <a href="@Url.Action("Page", "ProductsList", new { id = Model[i].Artikul })">
+                                        @*@Html.DisplayFor(m => m[i].Artikul) >>*@ На страницу товара
+                                    </a>
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => m[i].Name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => m[i].Mark)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => m[i].Cost)
+                                </td>
+                                <td>
+
+                                    <div class="number">
+                                        @Html.EditorFor(m => m[i].Number,
+                                   new
+                                   {
+                                       id = "number",
+                                       htmlAttributes = new
+                                       {
+                                           min = 1,
+                                           max = 1000,
+                                           @Value = Model[i].Number,
+                                           onchange = "onChangeTest(this);this.oldvalue = this.value;",
+                                           onload = "CalcCost(this);"
+                                       }
+                                   })
+                                </div>
+                            </td>
+                            <td>
+                                @{ 
+                                    var cost = Model[i].Cost * Model[i].Number;
+                                }
+                                <div class="cost">
+                                    <input type="text" value="@cost" readonly size="10"/>
+                                </div>
+                            </td>
+                            <td>
+                                <a hidden href="#" class="Save">Сохранить</a>
+                            </td>
+                            <td>
+                                @Html.ActionLink("Удалить", "Delete", new { cart_id = Model[i].Cart_id })
+                            </td>
+                        </tr>
+                }
+            </tbody>
+        </table>
+        <input type="submit" value="Оформить заказ" class="btn btn-default" />
+    }
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#Test").click(function () {
+            $("input:checkbox:not(#Test)").prop("checked", $(this).is(":checked"));
+        })
+    });
+
+    var cart_counter = @Session["Carts"];
+    var prev;
+    var saved = false;
+    function onChangeTest(textbox) {
+        if (textbox.oldvalue==null) 
+            prev = textbox.defaultValue;
+        else if (saved == true)
+        {
+            saved = false;
+            prev = textbox.oldvalue;
+        }
+        textbox.parentElement.parentElement.parentElement.cells[7].childNodes[1].click();
+        CalcCost(textbox);
+   }
+
+    function CalcCost(textbox) {
+        textbox.parentElement.parentElement.parentElement.cells[6].childNodes[1].childNodes[1].value =
+                     textbox.value * parseFloat(textbox.parentElement.parentElement.
+            parentElement.cells[4].childNodes[0].nodeValue);
+    }
+
+    $(document).ready(function () {
+        $(".Save").click(function () {
+            
+            var url = "@Url.Action("Save", "Carts")";
+            var cart_id = $(this).parent().parent().find("input:hidden")[0].value;
+            var number = $(this).parent().parent().find("div.number").find("input").val();
+
+            if(number>0 && number<1000)
+            $.ajax({
+                type: "POST",
+                data: { "cart_id": cart_id, "number": number },
+                url: url,
+                success: function (result) {
+                    if(prev!=null && prev!=number){
+                        cart_counter = cart_counter + (number-prev);
+                    }
+                   // alert("Изменения сохранены");
+                    saved = true;
+                    $(".session_carts").html(cart_counter);
+                }
+            });
+            else alert("Некорректные данные")
+        })
+    });
+</script>

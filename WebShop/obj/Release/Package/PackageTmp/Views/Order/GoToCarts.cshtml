@@ -1,0 +1,219 @@
+﻿@model IEnumerable<WebShop.Models.CartModel>
+@{
+    ViewBag.Title = "Карты заказа";
+    Layout = "~/Views/Shared/Wrapper.cshtml";
+}
+<!-- DataTables CSS -->
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
+
+<!-- jQuery -->
+<script type="text/javascript" charset="utf8" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+
+<!-- DataTables -->
+<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.5/js/jquery.dataTables.js">
+</script>
+
+
+<h2>@ViewBag.Title</h2>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div class="form-group">
+        <form action="/Carts/Update" method="post">
+
+            <table id="carts">
+                <thead>
+                    <tr>
+                        <th>
+                            ID карты
+                        </th>
+                        <th>
+                            Артикул
+                        </th>
+                        <th>
+                            Название
+                        </th>
+                        <th>
+                            Количество
+                        </th>
+                        <th>
+                            Количество на складе
+                        </th>
+                        <th>
+                            Дата_заказа
+                        </th>
+                        <th>
+                            Сосотояние
+                        </th>
+                        <th>
+                            Изменить
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var cart in Model)
+                    {
+                        <tr>
+                            <td>
+                                <div class="cart_id">@Html.DisplayFor(modelUser => cart.Cart_id)</div>
+                            </td>
+                            <td>
+                                <div>@Html.DisplayFor(modelUser => cart.Artikul)</div>
+                            </td>
+                            <td>
+@{ 
+    List<WebShop.Models.Product> Products = ViewBag.Products;
+    string name = Products.FirstOrDefault(x => x.Artikul == cart.Artikul).Name;
+    float amount_store = Products.FirstOrDefault(x => x.Artikul == cart.Artikul).Amount_store;
+}
+                                <div>@Html.Label(name)</div>
+                            </td>
+                            <td>
+                                <div>@Html.DisplayFor(modelUser => cart.Number)</div>
+                            </td>
+                            <td>
+                                <div>
+    @{
+        string color = "#87CEEB";
+        string disabled1 = "";
+        string message = "";
+        if (cart.Number > amount_store)
+        {
+            color = "#FF4500";
+            disabled1 = "disabled='disabled'";
+            message = "Отправка заказа невозможна!";
+        }
+    }
+    @Html.Label(amount_store.ToString(), new { style = "color:" + @color })<br />
+                                    @Html.Label(@message, new { style = "color:#F4A460" })
+</div>
+
+                            </td>
+                            <td>
+                                @*<input type="date" id ="date" value="@DateTime.Now.Date">*@
+                                @*@{ 
+                                    DateTime date = new DateTime();
+                                    if ((cart.State == 2)||(cart.State == 4))
+                                    {
+                                        date = DateTime.Now.Date;
+                                    }
+                                    if (cart.State == 3)
+                                    {
+                                        date = cart.date;
+                                    }
+                                }*@
+                                @*<div class="date">@Html.EditorFor(modelUser => cart.date ,new { @class = "form-control" })</div>*@
+                                <div class="date">@Html.TextBoxFor(modelUser => cart.date)</div>
+                            </td>
+                            <td>
+                                <div>
+                                    @{ 
+                                        string disabled = "";
+                                        if (cart.State==3)
+                                        {
+                                            disabled = "disabled='disabled'";
+                                        }
+                                        else { disabled = ""; }
+                                    }
+                                    <select id="items" name="items" class="status" @disabled>
+                                        @{ if (cart.State == 1)
+                                            {
+                                                <option value="1" selected disabled="disabled">не подтвержден</option>
+                                                <option value="2">ожидает отправки</option>
+                                                <option value="3" @disabled1>отправлен</option>
+                                                <option value="4">отклонен</option>
+                                            }
+                                            if (cart.State == 2)
+                                            {
+                                                <option value="1" disabled="disabled">не подтвержден</option>
+                                                <option value="2" selected>ожидает отправки</option>
+                                                <option value="3" @disabled1>отправлен</option>
+                                                <option value="4">отклонен</option>
+                                            }
+                                            if (cart.State == 3)
+                                            {
+                                                <option value="1" disabled="disabled">не подтвержден</option>
+                                                <option value="2">ожидает отправки</option>
+                                                <option value="3" selected @disabled1>отправлен</option>
+                                                <option value="4">отклонен</option>
+                                            }
+                                            if (cart.State == 4)
+                                            {
+                                                <option value="1" disabled="disabled">не подтвержден</option>
+                                                <option value="2">ожидает отправки</option>
+                                                <option value="3" @disabled1>отправлен</option>
+                                                <option value="4" selected>отклонен</option>
+                                            }
+                                        }
+
+                                    </select>
+                                    @*@Html.DropDownListFor(modelUser => user.CurrentRole, items.FindAll(x => x.Value != user.CurrentRole), items.Find(x => x.Value == user.CurrentRole).Text)*@
+                                </div>
+                            </td>
+                            <td>
+                                <input type="button" value="Изменить" class="Update" />
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </form>
+
+    </div>
+    <script type="text/javascript">
+        $(".Update").click(function () {
+
+            var url = "@Url.Action("Update"/*имя экшина*/, "Carts"/*имя контроллера*/)";
+            var cartmodel_id = $(this).parent().parent().find("div.cart_id").text();//$('div:eq(4)').val();
+            var status_new = $(this).parent().parent().find("select").val();//$('div:eq(4)').val();
+            var date = $(this).parent().parent().find("div.date input").val();
+            $.ajax({
+                type: "POST",
+                data: { "cartmodel_id": cartmodel_id,"status_new":status_new,"date":date},
+                url: url,
+                success: function (result) {
+                    alert(result)
+                }
+            });
+        });
+    </script>
+    <style>
+        tr.even {
+            background-color: #F5F5F5 !important;
+        }
+    </style>
+    @* Load datatable css *@
+    <link href="//cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css" rel="stylesheet" />
+    @* Load datatable js *@
+    @section Scripts{
+        <script src="//cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+        <script>
+
+            $(document).ready(function () {
+                $('#carts').DataTable({
+                    "language": {
+                        "lengthMenu": "Отображать _MENU_ позиций на странице",
+                        "zeroRecords": "Извините, ничего не найдено",
+                        "info": "Показана страница _PAGE_ из _PAGES_",
+                        "infoEmpty": "нет доступных записей",
+                        "infoFiltered": "(просмотрено по _MAX_ позиций)",
+                        "search": "Поиск:",
+                        "paginate": {
+                            "first": "Первая",
+                            "last": "Последняя",
+                            "next": "Следующая",
+                            "previous": "Предыдущая"
+                        }
+                    }
+                });
+            });
+        </script>
+    }
+</body>
+</html>
+

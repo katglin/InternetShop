@@ -1,0 +1,87 @@
+﻿@model List<WebShop.Models.StaticModel>
+
+<h2>Статическая страница</h2>
+<div>
+    @using (Html.BeginForm())
+    {
+        <table class="table" id='myTable'>
+            <thead>
+                <tr>
+                    <th>
+                        <input type="checkbox" id="Test" name="Test" />
+                        @*@Html.CheckBox("select_all")*@
+                    </th>
+                    <th>
+                        Про магазин
+                    </th>
+                    <th>
+                        Доставка
+                    </th>
+                    <th>
+                        Акции
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @*@foreach (var item in Model)*@
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    <tr>
+                        @*<div class="id">*@
+                        @Html.HiddenFor(m => m[i].About_shop, new { @class = "About_shop" })
+
+                        @*</div>*@
+                        @Html.HiddenFor(m => m[i].Delivery)
+                        @Html.HiddenFor(m => m[i].Sales)
+                        <td>
+                            @Html.TextAreaFor(m => m[i].About_shop)
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Page", "StaticList", new { id = Model[i].Static_id })">
+                                @Html.DisplayFor(m => m[i].Static_id) >> Перейти
+                            </a>
+                        </td>
+                        <td>
+                            <div class="number">@Html.(m => m[i].About_shop, new { id = "aboutshop" }</div>
+                        </td>
+                        <td>
+                            @Html.DisplayFor(m => m[i].EditAll)
+                        </td>
+                        <td></td>
+                        <td>
+                            <a href="#" class="Save">Сохранить</a>
+                        </td>
+                        <td>
+                            @Html.ActionLink("Удалить", "Delete", new { static_id = Model[i].Static_id })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#Test").click(function () {
+            $("input:checkbox:not(#Test)").prop("checked", $(this).is(":checked"));
+        })
+    });
+
+    $(document).ready(function () {
+        $(".Save").click(function () {
+
+            var url = "@Url.Action("Save", "Statics")";
+            var cart_id = $(this).parent().parent().find("input:hidden")[0].value;
+            var number = $(this).parent().parent().find("div.Static_id").find("input").val();
+            $.ajax({
+                type: "POST",
+                data: { "static_id": static_id, "about_shop": about_shop },
+                url: url,
+                success: function (result) {
+                    alert("Изменения сохранены")
+                }
+            });
+        })
+    });
+</script>

@@ -1,0 +1,98 @@
+﻿@model IEnumerable<WebShop.Models.BannerModel>
+
+@{
+    bool first = true;
+}
+@{
+    var message = TempData["OrderOK"];
+    if (message != null)
+    {
+        <script type="text/javascript">
+            $(document).ready(function (message) {
+                alert("Ваш заказ будет обработан администраторами в ближайшее время. Спасибо, что выбрали наш магазин!");
+            });
+        </script>
+    }
+}
+
+<div class="carousel slide" id="myCarousel">
+<div class="carousel-inner">
+ @{ 
+     var maxLength = Model.Count<WebShop.Models.BannerModel>();
+     int maxBanLen = 3;
+
+     if (maxLength > 0)
+     {
+         maxLength = maxLength > maxBanLen ? maxBanLen : maxLength;
+         for (int i = 0; i < maxLength; i++)
+         {
+             var id = Model.ToArray()[i].Artikul;
+             if (first)
+             {
+                    @: <div class="item active">
+                    first = !first;
+             }
+             else
+             {
+                    @: <div class="item"> 
+             }
+        <div class="bannerImage">
+        <a href="@Url.Action("Page","ProductsList", new { id = id})"><img src=@Url.Content(Model.ToArray()[i].Image_path) alt="Banner"></a>
+        <p><a class="ToShop" href="@Url.Action("Page","ProductsList", new { id = id})">В Магазин &raquo;</a></p>
+        @* use this to open page with product by image-id *@
+        @*<p><a class="ToShop" href="@Url.Action("TestButtonToShop", "Home", new { myId = id}, Request.Url.Scheme)">В Магазин &raquo;</a></p>*@
+                </div>
+        @: </div>
+        }
+     }
+  }
+</div>   <!--class="carousel-inner"-->
+
+<div class="control-box">
+    <a data-slide="prev" href="#myCarousel" class="carousel-control left">‹</a>
+    <a data-slide="next" href="#myCarousel" class="carousel-control right">›</a>
+</div><!-- /.control-box -->
+            
+</div><!-- /#myCarousel -->
+
+    <div class="staticImages clearfix">
+        <a href="@Url.Action("Sales","Home")"><img src="~/Images/im4.jpg" alt="StaticImage1"></a>
+        <a href="@Url.Action("About","Home")"><img src="~/Images/im5.jpg" alt="StaticImage2"></a>
+    </div>
+
+
+        <div class="gallery">
+            <div id="container">
+
+    @{
+        maxLength = Model.Count<WebShop.Models.BannerModel>();
+        int galCount = 10;
+
+        if (maxLength > 0)
+        {
+            maxLength = maxLength > galCount ? galCount : maxLength;
+            for (int i = 0; i < maxLength; i++)
+            {
+                <a href="@Url.Action("Page","ProductsList", new { id = Model.ToArray()[i].Artikul})"><img src=@Url.Content(Model.ToArray()[i].Image_path) alt="gallery" /></a>
+            }
+        }
+    }
+            </div><!-- container -->
+            <img id="carouselLeft" src="~/Images/rightArr.png" alt="Left Arrow" />
+            <img id="carouselRight" src="~/Images/leftArr.png" alt="Right Arrow" />
+        </div><!-- gallery -->
+
+    <script type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/click-carousel.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $("#container").clickCarousel({ margin: 0 });
+        });
+    </script>
+    @*<script type="text/javascript">
+        function showOrderOK(alertText) {
+            alert(alertText);
+        }
+    </script>*@
+

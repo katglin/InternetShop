@@ -1,0 +1,91 @@
+﻿@model WebShop.Models.OrderFormModel
+
+<h2>Форма оформления заказа</h2>
+@if (!User.Identity.IsAuthenticated)
+{
+    // add: redirect to this form without losing ids
+    <div class="go-to-login-page">
+    @Html.ActionLink("Авторизируйтесь", "Login")
+    чтобы ускорить заполнение формы</div>
+}
+@ViewBag.Error
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()  
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Surname, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Surname, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Surname, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Phone, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Comment, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.Comment, 7, 40, new { maxlength = 250, htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Comment, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.Cart_ids, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <div class="col-md-10">
+                @for (int i = 0; i < Model.Cart_ids.Count(); i++)
+                {
+                    @Html.HiddenFor(model => Model.Cart_ids[i])
+                }    
+                @*@Html.ValidationMessageFor(model => model.Cart_ids, "", new { @class = "text-danger" })*@
+            </div>
+        </div>
+
+            <hr>
+            <div class="order-sum">
+                К оплате: @Html.DisplayFor(model => model.OrderSum) грн
+            </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input class="orderOK" type="submit" value="Оформить заказ" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

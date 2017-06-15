@@ -1,0 +1,13 @@
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.Models\bin\Release\WebShop.Models.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.Models\bin\Release\WebShop.Models.pdb
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.Models\obj\Release\WebShop.Models.dll
+C:\Users\katya_000\Desktop\Repository\IntShop\InternetShop\WebShop.Models\obj\Release\WebShop.Models.pdb
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop.Models\bin\Release\WebShop.Models.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop.Models\bin\Release\WebShop.Models.pdb
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop.Models\obj\Release\WebShop.Models.dll
+C:\Users\katya_000\Desktop\Finished_project\IntShop\InternetShop\WebShop.Models\obj\Release\WebShop.Models.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.Models\bin\Release\WebShop.Models.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.Models\bin\Release\WebShop.Models.pdb
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.Models\obj\Release\WebShop.Models.csprojResolveAssemblyReference.cache
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.Models\obj\Release\WebShop.Models.dll
+E:\Универ\Проектный практикум\IntShop-last work ver\InternetShop\WebShop.Models\obj\Release\WebShop.Models.pdb

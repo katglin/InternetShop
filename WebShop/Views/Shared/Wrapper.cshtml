@@ -1,0 +1,104 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/Content/styles.css">
+    
+    @*<script type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>*@
+
+  @*  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>*@
+    @*  <script type="text/javascript" src="~/Scripts/click-carousel.js"></script>*@
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <title>InternetShop</title>
+</head>
+<body>
+    <div class="wrapper">
+            <header>
+               @*Хедер сайта*@
+                <a href="@Url.Action("Index","Home") ">
+                    <img class="logo" src="~/Images/logo.png" alt="Logo"/>
+                </a>
+
+                @*<div class="login">
+                    <a href="@Url.Action("Index","Home") "> 
+                        Вход/Регистрация
+                    </a>
+                    
+                </div>*@
+                   
+                <div class="login">
+                    @Html.Partial("_LoginPartial")
+                    
+                </div>
+             </header>
+        
+        @if (User.IsInRole("superadmin")|| User.IsInRole("admin"))
+        {
+            @Html.Partial("Main_menu_admin");
+        }
+        else
+        {
+            @Html.Partial("MainMenu");
+        }
+        <div class="content clearfix">
+            @RenderBody()
+        </div>
+
+            
+
+        <footer>
+            <div class="address">
+              
+                <h5>   Нас можно найти: </h5>
+                <p>
+                    ул. Центральная 54А, Киев <br />
+                    87654 Украина <br />
+                </p>
+            </div>
+
+            <div class="contacts">
+                <h5>    Свяжитесь с нами: </h5>
+                <p>
+                    Тел. +38 (095) 848 48 48 <br />
+                    Тел. +38 (044) 848 48 48 <br />
+                </p>
+            </div>
+
+            <div class="footermenu">
+                <h5>    Вам может быть интересно: </h5>
+                <p>
+                    <a href="@Url.Action("Index", "Home")">Главная >> </a> / <a href="@Url.Action("Login", "Account")">Вход >> </a> <br />
+                    <a href="@Url.Action("Index", "ProductsList")">Товары >> </a> / <a href="@Url.Action("Delivery", "Home")">Оплата и доставка >> </a> <br />
+                    <a href="@Url.Action("About", "Home")">О нас >> </a> / <a href="@Url.Action("Sales", "Home")">Акции >> </a> 
+                </p>
+            </div>
+
+            <div class="social" clearfix>
+                <h5>    Мы в соцсетях: </h5>
+                <p>
+                    <a target="_blank" href="https://www.facebook.com"><img src="~/Images/facebook.png" alt="Facebook"/></a>
+                    <a target="_blank" href="https://twitter.com/?lang=ru"><img src="~/Images/twitter.png" alt="Twitter" /></a>
+                    <a target="_blank" href="https://new.vk.com"><img src="~/Images/vk.png"alt="Vkontakte"/></a>
+                </p>
+            </div>
+            <p class="copy">
+                &copy; Все права сохранены
+            </p>
+            
+        </footer>
+    </div>
+    @*@Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")*@
+    @RenderSection("scripts", required: false)
+</body>
+</html>

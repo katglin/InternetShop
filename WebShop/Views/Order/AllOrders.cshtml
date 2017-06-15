@@ -1,0 +1,125 @@
+﻿@model IEnumerable<WebShop.Models.OrderModel>
+@{
+    ViewBag.Title = "Оформленные заказы";
+    Layout = "~/Views/Shared/Wrapper.cshtml";
+}
+<!-- DataTables CSS -->
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
+
+<!-- jQuery -->
+<script type="text/javascript" charset="utf8" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+
+<!-- DataTables -->
+<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.5/js/jquery.dataTables.js">
+</script>
+
+
+<h2>@ViewBag.Title</h2>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div class="form-group">
+        <form action="/Order/GoToCarts" method="post">
+
+            <table id="orders">
+                <thead>
+                <tr>
+                    <th>
+                        ID
+                    </th>
+                    <th>
+                        Фамилия
+                    </th>
+                    <th>
+                        Имя
+                    </th>
+                    <th>
+                        Email
+                    </th>
+                    <th>
+                        Телефон
+                    </th>
+                    <th>
+                        Переход
+                    </th>
+                </tr>
+</thead>
+                <tbody>
+                @foreach (var order in Model)
+                {
+                    <tr>
+                        <td>
+                            <div class="order_id">@Html.DisplayFor(modelUser => order.Order_id)</div>
+                        </td>
+                        <td>
+                            <div>@Html.DisplayFor(modelUser => order.Surname)</div>
+                        </td>
+                        <td>
+                            <div>@Html.DisplayFor(modelUser => order.Name)</div>
+                        </td>
+                        <td>
+                            <div>@Html.DisplayFor(modelUser => order.Email)</div>                            
+                        </td>
+                        <td>
+                            <div>@Html.DisplayFor(modelUser => order.Phone)</div>
+                        </td>
+                        <td>
+                            @if (order.Attent == true)
+                            {
+                                @Html.ActionLink("Перейти", "GoToCarts", "Order", new { Order_id = order.Order_id },
+                               new { style = "color:green" })
+                            }    
+                            else
+                            {
+                            @Html.ActionLink("Перейти", "GoToCarts", "Order", new { Order_id = order.Order_id },
+                           new { style = "color:red" });
+                            }
+                              
+
+                        </td>
+                    </tr>
+                }
+                    </tbody>
+            </table>
+        </form>
+        @*<div>@Html.ActionLink("Очистить отправленные заказы", "Delete_carts", "Carts")</div>*@
+    </div>
+    <style>
+        tr.even {
+            background-color: #F5F5F5 !important;
+        }
+    </style>
+    @* Load datatable css *@
+    <link href="//cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css" rel="stylesheet" />
+    @* Load datatable js *@
+    @section Scripts{
+        <script src="//cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+        <script>
+
+            $(document).ready(function () {
+                $('#orders').DataTable({
+                    "language": {
+                        "lengthMenu": "Отображать _MENU_ позиций на странице",
+                        "zeroRecords": "Извините, ничего не найдено",
+                        "info": "Показана страница _PAGE_ из _PAGES_",
+                        "infoEmpty": "нет доступных записей",
+                        "infoFiltered": "(просмотрено по _MAX_ позиций)",
+                        "search": "Поиск:",
+                        "paginate": {
+                            "first": "Первая",
+                            "last": "Последняя",
+                            "next": "Следующая",
+                            "previous": "Предыдущая"
+                        }
+                    }
+                });
+            });
+        </script>
+    }
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿@{
+    Layout = null;
+}
+
+<div class="menu">
+    <ul class="menu_items clearfix">
+        @{if (User.IsInRole("superadmin"))
+            { 
+        <li>@Html.ActionLink("Главная", "Index", "User")</li>
+            }
+            else
+            {
+                <li>@Html.ActionLink("Главная", "Index_for_admin", "User")</li>
+            }
+        }
+             
+        <li>
+            @Html.ActionLink("Товары", "Index", "Product")
+        </li>
+        <li>
+            @Html.ActionLink("Заказы", "AllOrders", "Order")
+        </li>
+        <li>
+            @Html.ActionLink("Изображения", "Index", "Picture")
+        </li>
+        <li>
+            @Html.ActionLink("О нас", "EditAll", "Home")
+        </li>
+        @*<li>@Html.ActionLink("О магазине", "About", "Home")</li>
+    <li>@Html.ActionLink("Оплата и доставка", "Delivery", "Home")</li>
+    <li>@Html.ActionLink("Акции", "Sales", "Home")</li>*@
+    </ul>
+</div>
